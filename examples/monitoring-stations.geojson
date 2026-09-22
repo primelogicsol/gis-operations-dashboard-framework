@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "demo_monitoring_stations",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "MON-001",
+        "station_name": "North Creek Monitoring Station",
+        "station_type": "water_quality",
+        "status": "active",
+        "data_quality": "demo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.8600, 39.2900]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "MON-002",
+        "station_name": "Central Air Monitoring Station",
+        "station_type": "air_quality",
+        "status": "maintenance",
+        "data_quality": "demo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.8700, 39.3000]
+      }
+    }
+  ],
+  "notice": "Fictional demonstration data only."
+}
